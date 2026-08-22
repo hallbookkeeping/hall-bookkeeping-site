@@ -34,6 +34,20 @@ Then open http://localhost:8000.
 
 Vercel, static, zero config. Pushes to `main` deploy to production automatically.
 
+The repo is public on purpose. Vercel's Hobby plan refuses Git deployments on a
+private repo when the commit author is not the project owner, so keep it public
+unless the account moves to Pro.
+
+To deploy by hand:
+
+```bash
+vercel deploy --prod
+```
+
+Production domain is `hallbookkeepingsc.com`. DNS lives at Namecheap, not Vercel,
+because the Google Workspace MX records are managed there. Do not move the
+nameservers to Vercel or mail will break.
+
 ## Editing
 
 The design is client-approved and high fidelity. Before changing colors, type, spacing, or copy, read DESIGN.md. Prices, phone number, and email appear in more than one place per page, including the JSON-LD block in the head of `index.html`, so change them everywhere at once.
