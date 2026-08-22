@@ -1,5 +1,6 @@
 # Vercel
 .vercel
+.env*
 
 # OS cruft
 .DS_Store
