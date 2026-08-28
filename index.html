@@ -11,14 +11,14 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"ProfessionalService","name":"Hall Bookkeeping","description":"Cleanup and monthly bookkeeping on QuickBooks Online for small businesses.","url":"https://hallbookkeepingsc.com/","email":"taylor@hallbookkeepingsc.com","founder":{"@type":"Person","name":"Taylor Hall"},"address":{"@type":"PostalAddress","addressLocality":"Charleston","addressRegion":"SC","addressCountry":"US"},"areaServed":["Charleston SC","Mount Pleasant SC","North Charleston SC","West Ashley SC","Summerville SC","Daniel Island SC","James Island SC"],"priceRange":"$400-$1,000/mo monthly, $1,000-$5,000 cleanup","knowsAbout":["Bookkeeping","QuickBooks Online","Bank reconciliation","Financial statements"]}
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"Hall Bookkeeping","description":"Cleanup and monthly bookkeeping on QuickBooks Online for small businesses.","url":"https://hallbookkeepingsc.com/","email":"taylor@hallbookkeepingsc.com","founder":{"@type":"Person","name":"Taylor Hall"},"address":{"@type":"PostalAddress","addressLocality":"Charleston","addressRegion":"SC","addressCountry":"US"},"areaServed":["Charleston SC","Mount Pleasant SC","North Charleston SC","West Ashley SC","Summerville SC","Daniel Island SC","James Island SC"],"knowsAbout":["Bookkeeping","QuickBooks Online","Bank reconciliation","Financial statements"]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"Do you file my taxes?","acceptedAnswer":{"@type":"Answer","text":"No. Tax filing goes to a CPA. When it is time to file, I hand your CPA clean, tax ready books."}},
 {"@type":"Question","name":"Do you run payroll?","acceptedAnswer":{"@type":"Answer","text":"No. I track payroll in your books but do not process it."}},
 {"@type":"Question","name":"Do I need QuickBooks already?","acceptedAnswer":{"@type":"Answer","text":"No. If you already use QuickBooks Online, I work in your existing account. If you do not, I set it up for you when we start."}},
-{"@type":"Question","name":"How much does it cost?","acceptedAnswer":{"@type":"Answer","text":"Monthly service runs $400 to $1,000 depending on volume. Cleanup is quoted up front as one fixed number."}},
+{"@type":"Question","name":"How much does it cost?","acceptedAnswer":{"@type":"Answer","text":"Monthly service runs $400 to $1,000 based on your accounts and transaction count. Cleanup is a flat quote set before any work starts. Both are fixed numbers you see up front."}},
 {"@type":"Question","name":"How do we get started?","acceptedAnswer":{"@type":"Answer","text":"Schedule a call. If it is a fit, you invite me as a read-only accountant user on your QuickBooks and I take it from there."}},
 {"@type":"Question","name":"Are you a CPA?","acceptedAnswer":{"@type":"Answer","text":"No. I am a bookkeeper. I keep your books clean, reconciled, and tax ready. A CPA files your taxes, and I work directly with yours when it is time."}}]}
 </script>
@@ -27,9 +27,9 @@
 :root{--ink:#12263F;--slate:#4A5C73;--paper:#FFFFFF;--rule:#D9DEE6;--palmetto:#1D4E89;--palmetto-tint:#EAF1F8;--flag:#8A6410;--serif:'Playfair Display',Georgia,serif;--sans:'Public Sans',system-ui,sans-serif;--mono:'IBM Plex Mono',ui-monospace,monospace}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 var(--sans)}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 18px/1.65 var(--sans)}
 h1,h2,h3{font-family:var(--serif);font-weight:700;letter-spacing:-0.015em;margin:0}
-h1{font-size:36px;line-height:1.15}h2{font-size:26px}h3{font-size:19px}
+h1{font-size:40px;line-height:1.15}h2{font-size:29px}h3{font-size:21px}
 p{max-width:68ch;margin:0}
 a{color:var(--palmetto);text-decoration:underline;text-underline-offset:2px}
 a:hover{color:#163C6B}
@@ -39,14 +39,14 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 .wrap{max-width:960px;margin:0 auto;padding:0 24px}
 .rule{border:0;border-top:1px solid var(--rule);margin:0}
 .dbl{height:4px;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink)}
-.btn{display:inline-block;font:600 15px/1.2 var(--sans);padding:11px 20px;border-radius:3px;border:1px solid var(--palmetto);cursor:pointer;text-decoration:none}
+.btn{display:inline-block;font:600 16px/1.2 var(--sans);padding:11px 20px;border-radius:3px;border:1px solid var(--palmetto);cursor:pointer;text-decoration:none}
 .btn-primary{background:var(--palmetto);color:#FFFFFF}
 .btn-primary:hover{background:#163C6B;color:#FFFFFF}
 .badge{display:inline-block;justify-self:start;width:fit-content;font-family:var(--mono);font-size:12px;letter-spacing:0.12em;text-transform:uppercase;background:var(--palmetto-tint);color:var(--palmetto);padding:5px 12px;border-radius:3px}
 header{border-bottom:1px solid var(--rule)}
 .nav{display:grid;grid-template-columns:1fr;justify-items:center;align-items:center;gap:24px;padding:14px 0}
 .mark{font-family:var(--serif);font-weight:700;letter-spacing:-0.015em;text-decoration:none}
-.nav a.pg{font:500 16px var(--sans);color:var(--ink);text-decoration:none;padding:4px 2px}
+.nav a.pg{font:500 17px var(--sans);color:var(--ink);text-decoration:none;padding:4px 2px}
 .nav a.pg:hover{color:var(--palmetto)}
 .nowrap{white-space:nowrap}
 section.band{padding:44px 0 0}
@@ -56,8 +56,8 @@ section.band{padding:44px 0 0}
 .tier{border:1px solid var(--rule);border-radius:10px;background:#FFFFFF;padding:32px 28px;display:flex;flex-direction:column;gap:18px}
 .price{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:25px}
 .tick-list{list-style:none;margin:0;padding:0;display:grid;gap:8px}
-.icon-list{list-style:none;margin:0;padding:0;display:grid;gap:14px;font-size:15.5px;line-height:1.55}
-.icon-list li{display:flex;gap:10px;align-items:flex-start}
+.icon-list{list-style:none;margin:0;padding:0;display:grid;gap:14px;font-size:16.5px;line-height:1.55}
+.icon-list li{display:flex;gap:10px;align-items:flex-start;min-height:44px}
 .icon-list li i{width:18px;height:18px;color:var(--palmetto);flex:0 0 auto;margin-top:2px}
 .tick-list li{position:relative;padding-left:26px}
 .tick-list li::before{content:"✓";color:var(--palmetto);font-weight:600;position:absolute;left:0;top:0}
@@ -73,8 +73,8 @@ section.band{padding:44px 0 0}
 .faq summary{font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px}
 .faq summary::after{content:"+";color:var(--palmetto);font-weight:600}
 .faq details[open] summary::after{content:"–"}
-.faq p{margin-top:10px;color:var(--slate);font-size:16px}
-footer{border-top:1px solid var(--rule);margin-top:64px;padding:28px 0 40px;color:var(--slate);font-size:15px}
+.faq p{margin-top:10px;color:var(--slate);font-size:17px}
+footer{border-top:1px solid var(--rule);margin-top:64px;padding:28px 0 40px;color:var(--slate);font-size:16px}
 @media (max-width:760px){h1{font-size:30px}.display{font-size:34px!important}.nowrap{white-space:normal}.cols,.tiers,.promises,.steps{grid-template-columns:1fr!important}.soft{padding:26px 20px}main section.band{padding:32px 0 0}
 .nav{padding:16px 0;gap:12px;grid-template-columns:1fr;justify-items:center}
 .nav a.pg{padding:10px 8px;font-size:16px}
@@ -87,21 +87,32 @@ footer .wrap>div:first-child{flex-direction:column;align-items:center;text-align
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
 </style></head><body>
 <main id="top">
-<div class="hero-band" data-screen-label="Hero" style="background:var(--ink);padding:36px 0 120px"><div class="wrap" style="max-width:1200px">
-<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:48px"><a class="mark" href="#top" style="width:max-content;display:flex;align-items:center;gap:5px;line-height:1;color:#FFFFFF"><img src="logo-oak-white.svg" alt="" style="height:46px"><span style="display:grid;gap:2px;text-align:left"><span style="font-size:28px">Hall</span><span style="font-size:14px;letter-spacing:0.01em">Bookkeeping</span></span></a><div style="display:flex;gap:28px;align-items:center"><a href="#services" style="color:#FFFFFF;text-decoration:none;font:500 15px var(--sans)">Services</a><a href="#about" style="color:#FFFFFF;text-decoration:none;font:500 15px var(--sans)">About me</a><a href="#faq" style="color:#FFFFFF;text-decoration:none;font:500 15px var(--sans)">FAQ</a></div></div>
+<div class="hero-band" data-screen-label="Hero" style="background:var(--ink);padding:18px 0 120px"><div class="wrap" style="max-width:1200px">
+<div style="display:flex;justify-content:space-between;align-items:center;margin:0 auto 48px;max-width:880px"><a class="mark" href="#top" style="width:max-content;display:flex;align-items:center;gap:5px;line-height:1;color:#FFFFFF"><img src="logo-oak-white.svg" alt="" style="height:58px"><span style="display:grid;gap:2px;text-align:left"><span style="font-size:34px">Hall</span><span style="font-size:17px;letter-spacing:0.01em">Bookkeeping</span></span></a><div style="display:flex;gap:28px;align-items:center"><a href="#services" style="color:#FFFFFF;text-decoration:none;font:500 15px var(--sans)">Services</a><a href="#about" style="color:#FFFFFF;text-decoration:none;font:500 15px var(--sans)">About me</a><a href="#faq" style="color:#FFFFFF;text-decoration:none;font:500 15px var(--sans)">FAQ</a></div></div>
 
 <div style="display:grid;gap:32px;justify-items:center;text-align:center;max-width:820px;margin:0 auto">
 <h1 class="display" style="font-size:clamp(38px,4.6vw,58px);color:#FFFFFF">Bookkeeping for<br>Charleston business owners</h1>
-<p style="color:#D9DEE6;font-size:19px;max-width:54ch">I keep your QuickBooks organized, your financials accurate, and your stress levels low.</p>
+<p style="color:#D9DEE6;font-size:19px;max-width:54ch">I keep your QuickBooks organized, your financials accurate, and your questions answered the same day.</p>
 <a class="btn" href="#contact" style="background:#FFFFFF;color:var(--ink);border-color:#FFFFFF;font-size:18px;padding:17px 32px">Book a call with Taylor</a>
 </div>
 </div></div>
+<section class="band" id="why" data-screen-label="Pain points"><div class="wrap"><div class="soft" style="border:2px solid var(--palmetto)">
+<h2 style="max-width:620px;margin:0 auto">If you are a business owner who...</h2>
+<div style="max-width:620px;margin:28px auto 0;display:grid;gap:16px">
+<div style="display:flex;gap:12px;align-items:start"><i data-lucide="check" style="width:20px;height:20px;color:var(--palmetto);flex-shrink:0;margin-top:3px"></i><p style="margin:0;font-size:18px;color:var(--slate)">Wants to grow the business, not manage the books</p></div>
+<div style="display:flex;gap:12px;align-items:start"><i data-lucide="check" style="width:20px;height:20px;color:var(--palmetto);flex-shrink:0;margin-top:3px"></i><p style="margin:0;font-size:18px;color:var(--slate)">Wants to hand off the books without hiring anyone in house</p></div>
+<div style="display:flex;gap:12px;align-items:start"><i data-lucide="check" style="width:20px;height:20px;color:var(--palmetto);flex-shrink:0;margin-top:3px"></i><p style="margin:0;font-size:18px;color:var(--slate)">Dreads tax time because the books are behind</p></div>
+<div style="display:flex;gap:12px;align-items:start"><i data-lucide="check" style="width:20px;height:20px;color:var(--palmetto);flex-shrink:0;margin-top:3px"></i><p style="margin:0;font-size:18px;color:var(--slate)">Runs on gut feel instead of clear numbers</p></div>
+<p style="margin:12px 0 0;font-size:18px;text-align:center">...that is exactly what I fix.</p>
+</div>
+</div></div></section>
 <section class="band" id="services" data-screen-label="Bookkeeping services"><div class="wrap"><div class="soft">
 <h2 style="text-align:center">Bookkeeping services</h2>
 <div class="tiers" style="margin-top:28px">
-<div class="tier"><i data-lucide="calendar-check" style="width:28px;height:28px;color:var(--palmetto)"></i><h3>Monthly bookkeeping</h3><p style="font-size:16px;color:var(--slate)">Your accounts reconciled and your financial statements in your inbox by the 15th business day.</p><ul class="icon-list"><li><i data-lucide="check"></i>Bank and cards reconciled monthly</li><li><i data-lucide="check"></i><span>Financial statements delivered within <span class="num">15</span> business days</span></li><li><i data-lucide="check"></i>Same-day replies, seven days a week</li></ul><div style="margin-top:auto;display:flex;align-items:baseline;gap:10px"><div class="price" style="white-space:nowrap">$400 to $1,000</div><div class="label" style="font-size:15px;white-space:nowrap">per month</div></div><div style="font-size:14px;color:var(--slate);margin-top:4px;min-height:45px">Depends on account volume and complexity.</div></div>
-<div class="tier"><i data-lucide="history" style="width:28px;height:28px;color:var(--palmetto)"></i><h3>Cleanup or catch-up</h3><p style="font-size:16px;color:var(--slate)">Behind on your books? I rebuild months or years of records so you can file taxes and make decisions with confidence.</p><ul class="icon-list"><li><i data-lucide="check"></i>Every transaction reviewed and corrected</li><li><i data-lucide="check"></i>Statements imported and matched to your bank</li><li><i data-lucide="check"></i>Tax ready handoff to your CPA</li></ul><div style="margin-top:auto;display:flex;align-items:baseline;gap:10px"><div class="price" style="white-space:nowrap">Quote</div><div class="label" style="font-size:15px;white-space:nowrap">one time</div></div><div style="font-size:14px;color:var(--slate);margin-top:4px;min-height:45px">Depends on account volume and complexity.</div></div>
+<div class="tier"><i data-lucide="calendar-check" style="width:28px;height:28px;color:var(--palmetto)"></i><h3>Monthly bookkeeping</h3><p style="font-size:16px;color:var(--slate);min-height:112px">Your accounts reconciled and your financial statements in your inbox by the 15th business day.</p><ul class="icon-list"><li><i data-lucide="check"></i>All transactions categorized in QuickBooks Online</li><li><i data-lucide="check"></i>Bank accounts and cards reconciled monthly</li><li><i data-lucide="check"></i><span>Financial statements by the <span class="num">15th</span> business day</span></li><li><i data-lucide="check"></i>Same-day replies on weekdays</li></ul><div style="margin-top:auto;display:flex;align-items:baseline;gap:10px"><div class="price" style="white-space:nowrap">$400 to $1,000</div><div class="label" style="font-size:15px;white-space:nowrap">per month</div></div><div style="font-size:14px;color:var(--slate);margin-top:4px;min-height:45px">Fixed fee based on your accounts and transaction count.</div></div>
+<div class="tier"><i data-lucide="history" style="width:28px;height:28px;color:var(--palmetto)"></i><h3>Cleanup or catch-up</h3><p style="font-size:16px;color:var(--slate);min-height:112px">Behind on your books? I rebuild months or years of records so you can file taxes and make decisions with confidence.</p><ul class="icon-list"><li><i data-lucide="check"></i>Every transaction reviewed and corrected</li><li><i data-lucide="check"></i>Statements imported and matched to your bank</li><li><i data-lucide="check"></i>Tax ready handoff directly to your CPA</li><li><i data-lucide="check"></i>QuickBooks setup if needed</li><li style="visibility:hidden" aria-hidden="true"><i data-lucide="check"></i>spacer</li></ul><div style="margin-top:auto;display:flex;align-items:baseline;gap:10px"><div class="price" style="white-space:nowrap">Flat quote</div><div class="label" style="font-size:15px;white-space:nowrap">one time</div></div><div style="font-size:14px;color:var(--slate);margin-top:4px;min-height:45px">One fixed number, set before any work starts. The quote does not change.</div></div>
 </div>
+<div style="display:flex;justify-content:center;margin-top:32px"><a class="btn btn-primary" href="#contact">Book a call with Taylor</a></div>
 </div></div></section>
 <section class="band" id="about" data-screen-label="About"><div class="wrap"><div class="soft cols">
 <div style="display:grid;gap:18px;align-content:start">
@@ -120,13 +131,14 @@ footer .wrap>div:first-child{flex-direction:column;align-items:center;text-align
 <details><summary>Do you file my taxes?</summary><p>No. Tax filing goes to a CPA. When it is time to file, I hand your CPA clean, tax ready books.</p></details>
 <details><summary>Do you run payroll?</summary><p>No. I track payroll in your books but do not process it.</p></details>
 <details><summary>Do I need QuickBooks already?</summary><p>No. If you already use QuickBooks Online, I work in your existing account. If you do not, I set it up for you when we start.</p></details>
-<details><summary>How much does it cost?</summary><p>Monthly service runs <span class="num">$400</span> to <span class="num">$1,000</span> depending on volume. Cleanup is quoted up front as one fixed number.</p></details>
+<details><summary>How much does it cost?</summary><p>Monthly service runs <span class="num">$400</span> to <span class="num">$1,000</span> based on your accounts and transaction count. Cleanup is a flat quote set before any work starts. Both are fixed numbers you see up front.</p></details>
 <details><summary>How do we get started?</summary><p>Schedule a call. If it is a fit, you invite me as a read-only accountant user on your QuickBooks and I take it from there.</p></details>
 <details><summary>Are you a CPA?</summary><p>No. I am a bookkeeper. I keep your books clean, reconciled, and tax ready. A CPA files your taxes, and I work directly with yours when it is time.</p></details>
 </div>
 </div></div></section>
 <section class="band" id="contact" data-screen-label="Contact"><div class="wrap"><div class="soft">
 <h2 style="text-align:center">Schedule a call to get started</h2>
+<p style="text-align:center;max-width:520px;margin:12px auto 0;color:var(--slate)"><span class="num">15</span> minutes, free, no obligation. You do not need to prepare anything.</p>
 <div class="calendly-inline-widget" data-url="https://calendly.com/taylor-hallbookkeepingsc/15min?hide_gdpr_banner=1" style="min-width:320px;height:1060px;margin-top:20px"></div>
 <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
 </div></div></section>
