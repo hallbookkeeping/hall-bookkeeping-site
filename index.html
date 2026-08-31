@@ -61,7 +61,7 @@ section.band{padding:44px 0 0}
 .tick-list{list-style:none;margin:0;padding:0;display:grid;gap:8px}
 .icon-list{list-style:none;margin:0;padding:0;display:grid;gap:14px;font-size:16.5px;line-height:1.55}
 .icon-list li{display:flex;gap:10px;align-items:flex-start;min-height:44px}
-.icon-list li i{width:18px;height:18px;color:var(--palmetto);flex:0 0 auto;margin-top:2px}
+.icon-list li i,.icon-list li svg{width:18px;height:18px;color:var(--palmetto);flex:0 0 auto;margin-top:2px}
 .tick-list li{position:relative;padding-left:26px}
 .tick-list li::before{content:"✓";color:var(--palmetto);font-weight:500;position:absolute;left:0;top:0}
 .field{display:grid;gap:6px}
@@ -78,7 +78,7 @@ section.band{padding:44px 0 0}
 .faq details[open] summary::after{content:"–"}
 .faq p{margin-top:10px;color:var(--slate);font-size:17px}
 footer{border-top:1px solid var(--rule);margin-top:64px;padding:28px 0 40px;color:var(--slate);font-size:16px}
-@media (max-width:760px){h1{font-size:30px}.topbar{justify-content:center}.mark{margin-left:0!important}.display{font-size:34px!important}.nowrap{white-space:normal}.cols,.tiers,.promises,.steps{grid-template-columns:1fr!important}.soft{padding:26px 20px}main section.band{padding:32px 0 0}
+@media (max-width:760px){h1{font-size:30px}.topbar{justify-content:center!important}.topbar-links{display:none!important}.mark{margin-left:0!important}.display{font-size:34px!important}.nowrap{white-space:normal}.cols,.tiers,.promises,.steps{grid-template-columns:1fr!important}.soft{padding:26px 20px}main section.band{padding:32px 0 0}
 .nav{padding:16px 0;gap:12px;grid-template-columns:1fr;justify-items:center}
 .nav a.pg{padding:10px 8px;font-size:16px}
 .hero-band{padding:56px 0 64px!important}
@@ -91,7 +91,7 @@ footer .wrap>div:first-child{flex-direction:column;align-items:center;text-align
 </style></head><body>
 <main id="top">
 <div class="hero-band" data-screen-label="Hero" style="background:var(--ink);padding:18px 0 120px"><div class="wrap" style="max-width:1200px">
-<div class="topbar" style="display:flex;justify-content:space-between;align-items:center;margin:0 auto 48px;flex-wrap:wrap;gap:16px"><a class="mark" href="#top" style="width:max-content;display:flex;align-items:center;gap:5px;line-height:1;color:#FFFFFF;margin-left:-24px"><img src="logo-oak-white.svg" alt="" style="height:58px"><span style="display:grid;gap:2px;text-align:left"><span style="font-size:34px">Hall</span><span style="font-size:17px;letter-spacing:0.01em">Bookkeeping</span></span></a><div style="display:flex;gap:44px;align-items:center"><a href="#services" style="color:#FFFFFF;text-decoration:none;font:500 15px var(--sans)">Services</a><a href="#how" style="color:#FFFFFF;text-decoration:none;font:500 15px var(--sans);white-space:nowrap">How it works</a><a href="#about" style="color:#FFFFFF;text-decoration:none;font:500 15px var(--sans);white-space:nowrap">About me</a><a href="#faq" style="color:#FFFFFF;text-decoration:none;font:500 15px var(--sans)">FAQ</a><a href="#contact" style="color:#FFFFFF;text-decoration:none;font:500 15px var(--sans)">Contact</a></div></div>
+<div class="topbar" style="display:flex;justify-content:space-between;align-items:center;margin:0 auto 48px;flex-wrap:wrap;gap:16px"><a class="mark" href="#top" style="width:max-content;display:flex;align-items:center;gap:5px;line-height:1;color:#FFFFFF;margin-left:-24px"><img src="logo-oak-white.svg" alt="" style="height:58px"><span style="display:grid;gap:2px;text-align:left"><span style="font-size:34px">Hall</span><span style="font-size:17px;letter-spacing:0.01em">Bookkeeping</span></span></a><div class="topbar-links" style="display:flex;gap:44px;align-items:center"><a href="#services" style="color:#FFFFFF;text-decoration:none;font:500 15px var(--sans)">Services</a><a href="#how" style="color:#FFFFFF;text-decoration:none;font:500 15px var(--sans);white-space:nowrap">How it works</a><a href="#about" style="color:#FFFFFF;text-decoration:none;font:500 15px var(--sans);white-space:nowrap">About me</a><a href="#faq" style="color:#FFFFFF;text-decoration:none;font:500 15px var(--sans)">FAQ</a><a href="#contact" style="color:#FFFFFF;text-decoration:none;font:500 15px var(--sans)">Contact</a></div></div>
 <div style="display:grid;gap:32px;justify-items:center;text-align:center;max-width:820px;margin:0 auto">
 <h1 class="display" style="font-size:clamp(38px,4.6vw,58px);color:#FFFFFF">Your books, <span style="text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:8px;text-decoration-color:#7FA3CF">handled</span>.</h1>
 <p style="color:#D9DEE6;font-size:19px;max-width:62ch">Bookkeeping for Charleston business owners. I manage your QuickBooks and send you a clear monthly report on what you made.</p>
