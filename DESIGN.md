@@ -92,17 +92,20 @@ incidental rather than deliberate and is worth restoring.
 ## Assets
 
 In use:
-- `logo-oak-palmetto.svg` — oak mark in palmetto. Favicon on all four pages, footer
-  lockup, and the legal page headers.
+- `logo-oak-palmetto.svg` — oak mark in palmetto. Footer lockup and the legal page
+  headers.
 - `logo-oak-white.svg` — white oak mark, hero nav only.
 - `taylor-cutout.png`, `taylor-signature.png` — About section.
 - `og-image.png` — 1200×630 link preview: indigo ground, white oak, wordmark, tagline.
+- `favicon.svg`, `favicon.ico`, `favicon-48.png`, `favicon-96.png`,
+  `favicon-512.png`, `apple-touch-icon.png` — the oak in white on ink, on a square
+  canvas. Declared on every page. The raster copies exist because Google Search
+  reads only BMP, GIF, ICO, PNG, JPEG, PPM and TIFF favicons, never SVG.
 - `badge-intuit-bookkeeping.png`, `badge-qb-level1.png`, `badge-qb-level2.png` — About.
 
-Shipped but referenced by nothing: `favicon.svg`, `logo-book-duo.svg`,
-`logo-book-white.svg`, `logo-tick-palmetto.svg`, `logo-tick-white.svg`,
-`badge-qb-payroll.png`. The book marks are previous branding and should not come back.
-The payroll badge is kept in case it is added to the About row later.
+Shipped but referenced by nothing: `logo-tick-palmetto.svg`, `logo-tick-white.svg`,
+`badge-qb-payroll.png`. The payroll badge is kept in case it is added to the About
+row later. The book marks were previous branding and have been deleted.
 
 ## Legal pages
 

@@ -20,7 +20,8 @@ privacy.html                        legal, noindex
 terms.html                          legal, noindex
 disclaimer.html                     legal, noindex
 vercel.json                         cleanUrls
-logo-*.svg                          brand marks; logo-oak-palmetto.svg is the favicon
+logo-oak-*.svg                      brand marks, palmetto and white
+favicon.*, apple-touch-icon.png     the oak icon; raster copies are for Google Search
 badge-*.png                         QuickBooks and Intuit certification badges
 taylor-cutout.png                   headshot used in the About section
 taylor-signature.png                signature shown under the About photo
