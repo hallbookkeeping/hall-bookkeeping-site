@@ -1,0 +1,87 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>QuickBooks Online Setup for Charleston Small Businesses</title>
+<meta name="description" content="QuickBooks Online setup for Charleston small businesses: chart of accounts built for your business, bank feeds connected, opening balances tied to statements.">
+<link rel="canonical" href="https://hallbookkeepingsc.com/quickbooks-setup-charleston">
+<link rel="icon" type="image/svg+xml" href="logo-oak-palmetto.svg">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+:root{--ink:#12263F;--slate:#4A5C73;--paper:#FFFFFF;--rule:#D9DEE6;--palmetto:#1D4E89;--palmetto-tint:#EAF1F8;--flag:#8A6410;--serif:'Playfair Display',Georgia,serif;--sans:'Public Sans',system-ui,sans-serif;--mono:'IBM Plex Mono',ui-monospace,monospace}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 18px/1.65 var(--sans)}
+h1,h2,h3{font-family:var(--serif);font-weight:700;letter-spacing:-0.015em;margin:0}
+h1{font-size:40px;line-height:1.15}h2{font-size:29px}h3{font-size:21px}
+p{max-width:68ch;margin:0}
+a{color:var(--palmetto);text-decoration:underline;text-underline-offset:2px}
+a:hover{color:#163C6B}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:none;box-shadow:0 0 0 3px rgba(29,78,137,.35);border-radius:3px}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.label{font-family:var(--mono);font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:var(--slate)}
+.wrap{max-width:960px;margin:0 auto;padding:0 24px}
+.rule{border:0;border-top:1px solid var(--rule);margin:0}
+.dbl{height:4px;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink)}
+.btn{display:inline-block;font:600 16px/1.2 var(--sans);padding:11px 20px;border-radius:3px;border:1px solid var(--palmetto);cursor:pointer;text-decoration:none}
+.btn-primary{background:var(--palmetto);color:#FFFFFF}
+.btn-primary:hover{background:#163C6B;color:#FFFFFF}
+.badge{display:inline-block;justify-self:start;width:fit-content;font-family:var(--mono);font-size:12px;letter-spacing:0.12em;text-transform:uppercase;background:var(--palmetto-tint);color:var(--palmetto);padding:5px 12px;border-radius:3px}
+header{border-bottom:1px solid var(--rule)}
+.nav{display:grid;grid-template-columns:1fr;justify-items:center;align-items:center;gap:24px;padding:14px 0}
+.mark{font-family:var(--serif);font-weight:700;letter-spacing:-0.015em;text-decoration:none}
+.nav a.pg{font:500 17px var(--sans);color:var(--ink);text-decoration:none;padding:4px 2px}
+.nav a.pg:hover{color:var(--palmetto)}
+.nowrap{white-space:nowrap}
+section.band{padding:44px 0 0}
+.soft{background:#F5F8FB;border-radius:14px;padding:44px 40px}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+.tiers{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;align-items:stretch}
+.tier{border:1px solid var(--rule);border-radius:10px;background:#FFFFFF;padding:32px 28px;display:flex;flex-direction:column;gap:18px}
+.price{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:25px}
+.tick-list{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.icon-list{list-style:none;margin:0;padding:0;display:grid;gap:14px;font-size:16.5px;line-height:1.55}
+.icon-list li{display:flex;gap:10px;align-items:flex-start;min-height:44px}
+.icon-list li i{width:18px;height:18px;color:var(--palmetto);flex:0 0 auto;margin-top:2px}
+.tick-list li{position:relative;padding-left:26px}
+.tick-list li::before{content:"✓";color:var(--palmetto);font-weight:600;position:absolute;left:0;top:0}
+.field{display:grid;gap:6px}
+.field input,.field select,.field textarea{font:400 16px var(--sans);padding:10px 12px;border:1px solid var(--rule);border-radius:10px;background:#FFFFFF;color:var(--ink);width:100%}
+.field textarea{min-height:110px;resize:vertical}
+.promises{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.promise{display:flex;gap:12px;align-items:flex-start}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.step{display:grid;gap:10px;align-content:start}
+.faq details{border-top:1px solid var(--rule);padding:14px 0}
+.faq details:last-child{border-bottom:1px solid var(--rule)}
+.faq summary{font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px}
+.faq summary::after{content:"+";color:var(--palmetto);font-weight:600}
+.faq details[open] summary::after{content:"–"}
+.faq p{margin-top:10px;color:var(--slate);font-size:17px}
+footer{border-top:1px solid var(--rule);margin-top:64px;padding:28px 0 40px;color:var(--slate);font-size:16px}
+@media (max-width:760px){h1{font-size:30px}.mark{margin-left:0!important}.display{font-size:34px!important}.nowrap{white-space:normal}.cols,.tiers,.promises,.steps{grid-template-columns:1fr!important}.soft{padding:26px 20px}main section.band{padding:32px 0 0}
+.nav{padding:16px 0;gap:12px;grid-template-columns:1fr;justify-items:center}
+.nav a.pg{padding:10px 8px;font-size:16px}
+.hero-band{padding:56px 0 64px!important}
+.hero-band .btn{width:100%;text-align:center}
+.hero-band p{font-size:17px!important}
+.about-photo{max-width:100%!important;justify-self:center;height:360px!important}
+footer .wrap>div:first-child{flex-direction:column;align-items:center;text-align:center;gap:20px}
+.price{font-size:22px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+</style></head><body>
+<div style="background:var(--ink);padding:18px 0"><div class="wrap" style="max-width:1200px"><div style="display:flex;justify-content:space-between;align-items:center;margin:0 auto;max-width:880px;flex-wrap:wrap;gap:16px"><a class="mark" href="index.html" style="width:max-content;display:flex;align-items:center;gap:5px;line-height:1;color:#FFFFFF;text-decoration:none"><img src="logo-oak-white.svg" alt="" style="height:46px"><span style="display:grid;gap:2px;text-align:left"><span style="font-size:27px">Hall</span><span style="font-size:13.5px;letter-spacing:0.01em">Bookkeeping</span></span></a><div style="display:flex;gap:28px;align-items:center"><a href="index.html#services" style="color:#FFFFFF;text-decoration:none;font:500 15px var(--sans)">Services</a><a href="index.html#about" style="color:#FFFFFF;text-decoration:none;font:500 15px var(--sans);white-space:nowrap">About me</a><a href="index.html#faq" style="color:#FFFFFF;text-decoration:none;font:500 15px var(--sans)">FAQ</a></div></div></div></div>
+<main>
+<section class="band"><div class="wrap"><div class="soft" style="display:grid;gap:18px">
+<h1 style="font-size:34px">QuickBooks Online setup for Charleston small businesses</h1>
+<p style="color:var(--slate)">A QuickBooks file set up right on day one saves you a paid cleanup later. Most of the messes I rebuild started with a rushed setup: a generic chart of accounts, missing bank feeds, and opening balances typed in from memory. Setup is a few days of careful work, and here is what it covers.</p><h2 style="font-size:24px;margin-top:10px">A chart of accounts built for your business</h2><p style="color:var(--slate)">Your chart of accounts is the list every transaction lands in. QuickBooks ships with a generic one. I trim it and rebuild it around how your business actually runs, so a contractor sees job materials and subcontractors, and a restaurant sees food cost and labor, instead of eighty accounts nobody uses. A short, specific chart is what makes your profit and loss readable.</p><h2 style="font-size:24px;margin-top:10px">Bank feeds on every account</h2><p style="color:var(--slate)">I connect every business bank account and credit card to the bank feed so transactions flow in automatically. Then I set the bank rules that categorize the recurring ones. Rules are what keep the books current instead of piling up, and they are the part most self-setups skip.</p><h2 style="font-size:24px;margin-top:10px">Opening balances that are provably right</h2><p style="color:var(--slate)">Opening balances are where most do-it-yourself setups go wrong. I enter the starting balance for every account as of a defined date and tie each one to a bank statement, so the books start from a number you can verify rather than a guess. Everything after that reconciles cleanly.</p><h2 style="font-size:24px;margin-top:10px">What you have at the end</h2><p style="color:var(--slate)">A QuickBooks Online file with a chart of accounts that fits your business, live bank feeds on every account, correct opening balances, and rules doing the repetitive work. You can run it yourself from there, or hand me the monthly work. If your existing file is already months behind, setup usually pairs with a catch-up, and both get quoted as one flat number before anything starts.</p>
+<div style="margin-top:10px"><a class="btn btn-primary" href="index.html#contact">Book a call with Taylor</a></div>
+</div></div></section>
+</main>
+<footer style="background:var(--ink);color:rgba(255,255,255,0.75);border-top:none"><div class="wrap" style="padding-top:20px">
+<div style="display:grid;grid-template-columns:1fr auto 1fr;gap:32px;align-items:start">
+<div><div style="display:flex;align-items:center;gap:5px;width:max-content;line-height:1;font-family:var(--serif);font-weight:700;letter-spacing:-0.015em;color:#FFFFFF"><img src="logo-oak-white.svg" alt="" style="height:36px"><span style="display:grid;gap:2px;text-align:left"><span style="font-size:23px">Hall</span><span style="font-size:11.5px;letter-spacing:0.01em">Bookkeeping</span></span></div><div style="margin-top:12px;font-size:15px">Charleston, SC</div></div>
+<div style="display:grid;gap:8px;justify-items:center;text-align:center"><a href="index.html#services" style="color:#FFFFFF;text-decoration:none">Services</a><a href="index.html#about" style="color:#FFFFFF;text-decoration:none">About</a><a href="index.html#faq" style="color:#FFFFFF;text-decoration:none">FAQ</a><a href="index.html#contact" style="color:#FFFFFF;text-decoration:none">Contact</a><a href="cleanup-catch-up.html" style="color:rgba(255,255,255,0.75);text-decoration:none;font-size:15px">Catch-up bookkeeping</a><a href="quickbooks-setup-charleston.html" style="color:rgba(255,255,255,0.75);text-decoration:none;font-size:15px">QuickBooks setup</a><a href="bookkeeping-mount-pleasant-sc.html" style="color:rgba(255,255,255,0.75);text-decoration:none;font-size:15px">Bookkeeping in Mount Pleasant</a><a href="bookkeeping-summerville-sc.html" style="color:rgba(255,255,255,0.75);text-decoration:none;font-size:15px">Bookkeeping in Summerville</a></div>
+<div class="num" style="display:grid;gap:8px;justify-items:end;text-align:right"><a href="tel:8432147610" style="color:#FFFFFF;text-decoration:none">(843) 214-7610</a><a href="mailto:taylor@hallbookkeepingsc.com" style="color:#FFFFFF">taylor@hallbookkeepingsc.com</a></div>
+</div>
+<hr style="border:0;border-top:1px solid rgba(255,255,255,0.18);margin:28px 0 16px">
+<div style="font-size:14px">Serving Charleston, Mount Pleasant, North Charleston, West Ashley, Summerville, Daniel Island, and James Island.</div>
+<div style="font-size:14px;margin-top:6px">© <span class="num">2026</span> Hall Bookkeeping LLC. All rights reserved. · <a href="privacy.html" style="color:rgba(255,255,255,0.75)">Privacy</a> · <a href="terms.html" style="color:rgba(255,255,255,0.75)">Terms</a> · <a href="disclaimer.html" style="color:rgba(255,255,255,0.75)">Disclaimer</a></div>
+</div></footer>
+</body></html>
